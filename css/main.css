@@ -2176,6 +2176,7 @@ header .logo a {
 .pv-recommendation-entity__highlights {
     width: 66%;
     padding-left: 16px;
+	text-align: left;
 }
 
 .pv-profile-wrapper a:visited {
