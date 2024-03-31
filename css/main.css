@@ -1252,12 +1252,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #073d50;
+	color: #036284;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #073d50;
+	color: #036284;
 }
 
 /**
@@ -1337,7 +1337,7 @@ header .logo a {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #073d50;
+	color: #036284;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1467,6 +1467,7 @@ header .logo a {
 		font-size: 1.5rem;
 		margin-bottom: .3rem;
 		letter-spacing: .2rem;
+		color: #036284;
 	}
 	.intro-content .intro-position {
 		font-size: 1.2rem;
@@ -1629,7 +1630,7 @@ header .logo a {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #073d50;
+	color: #036284;
 }
 
 #resume .resume-timeline {
@@ -2122,7 +2123,7 @@ header .logo a {
 	color: white;
 }
 #testimony .section-intro h5 {
-	color: #073d50;
+	color: #055f80;
 }
 #testimony .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2144,7 +2145,7 @@ header .logo a {
 }
 .testimony-list .icon i {
 	font-size: 5.4rem;
-	color: #073d50;
+	color: #045b7b;
 }
 .testimony-list h3 {
 	color: #FFFFFF;
@@ -2205,6 +2206,7 @@ a.pv-recommendation-entity__member {
     padding-top: 20px;
     font-size: 2.0rem;
     line-height: 1.33333;
+	color: #ffffff;
 }
 
 /* title of recommending */
@@ -2221,7 +2223,7 @@ a.pv-recommendation-entity__member {
 
 /* more text styles */
 .t-black {
-    color: rgba(251, 251, 251, 0.982);
+    color: #fff(251, 251, 251, 0.982);
 }
 .t-bold {
     font-weight: 600;
@@ -2230,15 +2232,15 @@ a.pv-recommendation-entity__member {
     font-weight: 400;
 }
 .t-black--light {
-    color: rgba(251, 245, 245, 0.934);
+    color: #fff(251, 245, 245, 0.934);
 }
 
 /* sizing of recommendation text */
 blockquote {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     line-height: 1.3333;
     font-weight: 200;
-    color: rgba(252, 252, 252, 0.982);
+    color: #ffffff(252, 252, 252, 0.982);
 }
 blockquote, q {
     quotes: none;
@@ -2273,7 +2275,7 @@ blockquote, q {
  * ------------------------------------------------------------------- 
  */
 #stats {
-	background: #990047;
+	background: #0a2f80;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
@@ -2348,7 +2350,7 @@ blockquote, q {
 	color: white;
 }
 #contact .section-intro h5 {
-	color: #073d50;
+	color: #075e7e;
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2401,7 +2403,7 @@ blockquote, q {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #073d50;
+	background: #036284;
 }
 #contact form .form-field label::after {
 	position: absolute;
@@ -2410,7 +2412,7 @@ blockquote, q {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #073d50;
+	border-right: 5px solid #036284;
 	content: "";
 }
 #contact input[type="text"],
@@ -2432,7 +2434,7 @@ blockquote, q {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #073d50;
+	border-color: #036284;
 	color: #FFFFFF;
 }
 #contact textarea {
@@ -2452,11 +2454,11 @@ blockquote, q {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #073d50;
+	background: #036284;
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #073d50;
+	background: #036284;
 }
 #message-warning, #message-success {
 	display: none;
@@ -2589,7 +2591,7 @@ footer a, footer a:visited {
 	color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-	color: #073d50;
+	color: #036284;
 }
 footer .row {
 	max-width: 900px;
