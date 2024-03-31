@@ -20,7 +20,7 @@
  *  12. resume
  *  13. portfolio
  *  14. call-to-action section
- *  15. services
+ *  15. testimony
  *  16. stats
  *  17. contact
  *  18. footer
@@ -212,7 +212,7 @@ blockquote cite:before {
 	content: "\2014 \0020";
 }
 blockquote cite a, blockquote cite a:visited {
-	color: #888888;
+	color: #c4c2c2;
 	border: none;
 }
 abbr {
@@ -2090,11 +2090,11 @@ header .logo a {
 
 /** 
  * ===================================================================
- * 15. services - (_layout.scss)
+ * 15. testimony - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
-#services {
+#testimony {
 	background: #313131 url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2104,7 +2104,7 @@ header .logo a {
 	color: white;
 	position: relative;
 }
-#services .overlay {
+#testimony .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2114,45 +2114,134 @@ header .logo a {
 	opacity: .9;
 }
 
-#services .section-intro {
+#testimony .section-intro {
 	margin-bottom: 1.8rem;
 }
 
-#services .section-intro h1 {
+#testimony .section-intro h1 {
 	color: white;
 }
-#services .section-intro h5 {
+#testimony .section-intro h5 {
 	color: #027f7f;
 }
-#services .section-intro p {
+#testimony .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
-.services-content {
+.testimony-content {
 	max-width: 1200px;
 }
-.services-list {
+.testimony-list {
 	margin-top: 1.2rem;
 	text-align: center;
 }
-.services-list .service {
+.testimony-list .service {
 	margin-bottom: 1.2rem;
 	padding: 0 30px;
 }
-.services-list .icon {
+.testimony-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
 }
-.services-list .icon i {
+.testimony-list .icon i {
 	font-size: 5.4rem;
 	color: #027f7f;
 }
-.services-list h3 {
+.testimony-list h3 {
 	color: #FFFFFF;
 }
-.services-list .desc {
-	color: rgba(255, 255, 255, 0.6);
+.testimony-list .desc {
+	color: rgba(254, 249, 249, 0.958);
 }
 
+.pv-recommendation-entity:first-child {
+    padding-top: 0;
+    border-top: none;
+}
+.pv-recommendation-entity {
+    margin-right: 0;
+    display: flex;
+    border-top: 1px solid #e6e9ec;
+    padding: 16px 0;
+}
+
+/* image settings */
+.pv-recommendation-entity img {
+  border-radius: 50%
+}
+
+.pv-recommendation-entity__header {
+    width: 33%;
+}
+
+.pv-recommendation-entity__highlights {
+    width: 66%;
+    padding-left: 16px;
+}
+
+.pv-profile-wrapper a:visited {
+    color: #fff;
+}
+.pv-profile-wrapper a {
+    text-decoration: none;
+}
+
+.pv-recommendation-entity__member {
+    display: block;
+    overflow: auto;
+    text-decoration: none;
+}
+
+a.pv-recommendation-entity__member {
+      color: #fff;
+      text-decoration: none;
+      -webkit-transition: all .2s linear;
+      transition: all .2s linear;
+      border-bottom: 0px #fff;
+}
+
+/* name of recommending */
+.t-16 {
+    padding-top: 20px;
+    font-size: 2.0rem;
+    line-height: 1.33333;
+}
+
+/* title of recommending */
+.t-14 {
+    font-size: 1.5rem;
+    line-height: 1.42857;
+}
+
+/* date and relationship */
+.t-12 {
+    font-size: 1.5rem;
+    line-height: 1.33333;
+}
+
+/* more text styles */
+.t-black {
+    color: rgba(251, 251, 251, 0.982);
+}
+.t-bold {
+    font-weight: 600;
+}
+.t-normal {
+    font-weight: 400;
+}
+.t-black--light {
+    color: rgba(251, 245, 245, 0.934);
+}
+
+/* sizing of recommendation text */
+blockquote {
+    font-size: 1.5rem;
+    line-height: 1.3333;
+    font-weight: 200;
+    color: rgba(252, 252, 252, 0.982);
+}
+blockquote, q {
+    quotes: none;
+}
 /* pagination */
 .owl-pagination {
 	text-align: center;
